@@ -13,11 +13,8 @@ import json
 backend.set_image_dim_ordering('th')
 #change output array according to data
 
-output = ["Aboard","All_Gone","Baby","Beside","Book","Bowl","Bridge","Camp","Cartridge",
-                 "Eight","Five","Fond","Four","Friend","Glove","Hang","High","House","How_Many","IorMe",
-                 "Man","Marry","Meat","Medal","Mid_Day","Middle","Money","Moon","Mother","Nine",
-                 "One","Opposite","Prisoner","Ring","Rose","See","Seven","Short","Six"
-                 ,"Superior","Ten","Thick","Thin","Three","Tobacco","Two","Up","Watch","Write","You"]
+output = ["House","Aboard","Baby","Bowl", "Friend","IorMe","Money","Opposite","Prisoner","You"]
+
 get_output= None
 
 def predictSign(frame,model):

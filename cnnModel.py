@@ -15,7 +15,7 @@ img_x, img_y = 200, 200
 # For grayscale use 1 value and for color images use 3 (R,G,B channels)
 img_channels = 1
 #number of classes 
-no_classes = 50
+no_classes = 10
 #size of convolutional filter
 no_conv = 3
 #size of max pooling window
@@ -67,7 +67,7 @@ def createCNNModel(isBgModeOn):
     plot_model(model, to_file='new_model.png', show_shapes = True)
     if(isBgModeOn>-1):
        wightFileName = WeightFileName[int(isBgModeOn)]
-       print ("loading Weight File"+ str(wightFileName) + "...")
+       print ("loading Weight File "+ str(wightFileName) + "...")
        model.load_weights(wightFileName)
     else:
         print("Creating New CNN for training...")
