@@ -20,7 +20,7 @@ Step 2: Run the command KERAS_BACKEND=theano python cnnTrain.py.<br/>
 Step 3: As per menu shown on terminal select the data filter on which you want to train the CNN model.<br/>
 Step 4: Once the training is completed, a message "Model trained successfully"  will be shown on the terminal.<br/>
 ### 3. Prediction of Sign
-Step 1: Open the terminal and move to the project folder.<br/>  
+Step 1: Open the terminal and move to the project folder.<br/>
 Step 2: Run the command KERAS_BACKEND=theano python main.py.<br/>
 Step 3: Follow the menu shown on the terminal to adjust the region of gesture (Green box).<br/>
 Step 4: Once the Region of Gesture is fixed press key 'P' to start prediction.<br/>
