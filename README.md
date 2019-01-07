@@ -1,4 +1,5 @@
 # Indian-Sign-Language-Recognition-System
+Indian sign language (ISL) is one of the most used sign languages in the Indian subcontinent. This research aims at developing a simple Indian sign language recognition system based on convolutional neural network (CNN). The proposed system needs webcam and laptop and hence can be used anywhere. CNN is used for image classification. Scale invariant feature transformation (SIFT) is hybridized with adaptive thresholding and Gaussian blur image smoothing for feature extraction. Due to unavailability of ISL dataset, a dataset of 5000 images, 100 images each for 50 gestures, has been created. The system is implemented and tested using python-based library Keras. The proposed CNN with hybrid SIFT implementation achieves 92.78% accuracy, whereas the accuracy of 91.84% was achieved for CNN with adaptive thresholding.
 ## Hardware Requirements
 • 4 GB Ram<br/>
 • 1 GB Free Space<br/>
@@ -26,6 +27,4 @@ Step 3: Follow the menu shown on the terminal to adjust the region of gesture (G
 Step 4: Once the Region of Gesture is fixed press key 'P' to start prediction.<br/>
 Step 5: System will show predicted sign on display. For audio format, enable sound drivers.<br/>    
  
-
-
-
+DOI : https://doi.org/10.1007/978-3-030-00665-5_72
